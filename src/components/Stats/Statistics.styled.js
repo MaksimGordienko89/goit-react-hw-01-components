@@ -29,7 +29,15 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   display: inline-block;
-  background: linear-gradient(90deg, #b9deed, #efefef);
+  background-color: ${randColor => {
+    return (
+      '#' +
+      Math.floor(Math.random() * 16777215)
+        .toString(16)
+        .padStart(6, '0')
+        .toUpperCase()
+    );
+  }};
   width: 50px;
   padding: 10px;
   height: 40px;
