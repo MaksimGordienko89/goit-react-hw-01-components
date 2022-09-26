@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
   border-radius: 10px;
-  width: 300px;
-  margin: 0 auto 80px;
+  width: 350px;
+  margin: 30px auto;
   margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
