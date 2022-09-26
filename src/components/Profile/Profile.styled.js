@@ -26,29 +26,33 @@ export const CardContainer = styled.div`
 
 export const Name = styled.p`
   margin-top: 0px;
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
 `;
 export const Tag = styled.p`
   margin-top: 0px;
+  margin-bottom: 10px;
   color: grey;
   font-size: 18px;
 `;
 export const Location = styled.p`
   margin-top: 0px;
+  margin-bottom: 40px;
   color: grey;
   font-size: 18px;
 `;
 
 export const List = styled.ul`
   list-style: none;
-  padding: 0 10px 10px;
+  padding: 0 30px 30px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   height: 50px;
 
   li {
+    // background-color: #d3cbf4;
     display: flex;
     flex-direction: column;
     align-items: center;
