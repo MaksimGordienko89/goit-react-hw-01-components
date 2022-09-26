@@ -17,6 +17,9 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   padding: 10px 75px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-top: 5px;
 `;
 export const Image = styled.img`
   width: 70px;
