@@ -9,16 +9,22 @@ export const Table = styled.table`
   text-align: center;
   border-collapse: collapse;
   border-radius: 10px;
-
+  background-color: #c9cbdc;
   th {
+    color: white;
     width: 150px;
     border: 2px solid #c0c0c0;
     padding: 10px;
+    background-color: #5e68e5;
   }
+
   td {
     width: 150px;
     padding: 10px;
-    border: 2px solid #c0c0c0;
+    border: 2px solid white;
+  }
+  tr:nth-child(odd) {
+    background-color: #d7d9f4;
   }
 `;
 export const TableHead = styled.thead`

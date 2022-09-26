@@ -40,7 +40,6 @@ export const ListItem = styled.li`
   }};
   width: 50px;
   padding: 10px;
-  height: 40px;
   text-align: center;
 `;
 
