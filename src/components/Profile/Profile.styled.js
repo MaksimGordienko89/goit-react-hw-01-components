@@ -57,7 +57,7 @@ export const List = styled.ul`
     align-items: center;
     width: calc(33.3333% - 3px);
     :not(:first-child) {
-      border-left: 1px solid #c;
+      border-left: 1px solid #c0c0c0;
     }
   }
 `;
