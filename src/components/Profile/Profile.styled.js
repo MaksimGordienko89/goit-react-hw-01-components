@@ -52,7 +52,6 @@ export const List = styled.ul`
   height: 50px;
 
   li {
-    // background-color: #d3cbf4;
     display: flex;
     flex-direction: column;
     align-items: center;

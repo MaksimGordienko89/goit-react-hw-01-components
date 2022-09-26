@@ -13,10 +13,10 @@ export default function Statistics({ stats, title }) {
     <StatsSection>
       {title && <Title>{title}</Title>}
       <List>
-        {stats.map(({ id, label, percenttage }) => (
+        {stats.map(({ id, label, percentage }) => (
           <ListItem key={id}>
             <Label>{label}</Label>
-            <Percent>{percenttage}</Percent>
+            <Percent>{percentage}</Percent>
           </ListItem>
         ))}
       </List>
